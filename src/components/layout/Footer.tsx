@@ -12,7 +12,7 @@ export function Footer() {
             <div className="lg:col-span-5">
               <p className="t-caption mb-4 text-ink-muted">{site.descriptor}</p>
               <p className="max-w-sm text-[17px] leading-relaxed">
-                {site.slogan}. Промышленный альпинизм, фасадные работы и обслуживание остекления {site.cityIn}.
+                {site.slogan}. Промышленный альпинизм, фасадный сервис и монтаж инженерных систем {site.cityIn}.
               </p>
             </div>
 

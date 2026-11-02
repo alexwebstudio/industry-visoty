@@ -31,3 +31,7 @@
 | `stock-detail-facade-wash.jpg` | Очистка окон на подвесных платформах | Thomas Parker | https://www.pexels.com/photo/workers-on-platforms-next-to-building-windows-26935835/ |
 
 Лицензия: https://www.pexels.com/legal-pages/license/ . Не следует создавать впечатление, что изображённые люди или бренды одобряют компанию.
+
+## Материалы компании
+
+Фотографии с префиксом `client-` в `public/images/industry/` скопированы из предоставленного архива `WhatsApp Unknown 2026-11-02 at 13.39.42.zip`; `client-hero-building.jpg` — из отдельного файла `WhatsApp Image 2026-10-31 at 14.30.53 (2).jpeg`. В галерее подписи описывают видимое содержание кадров, без вымышленных названий объектов, адресов и результатов работ. В карточках услуг изображения помечены как фото из материалов компании.

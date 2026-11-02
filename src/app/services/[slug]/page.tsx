@@ -88,7 +88,7 @@ export default async function ServicePage({ params }: { params: Promise<Params> 
       <div className="relative aspect-[4/3] overflow-hidden rounded-[var(--radius-section)] bg-surface-2 lg:aspect-[16/9]">
         <Image src={s.detailImage} alt={s.detailImageAlt} fill priority quality={85} sizes="100vw" className="object-cover" />
         <span className="absolute bottom-5 left-5 rounded-full bg-ink/75 px-4 py-2 text-[13px] text-on-dark">
-          Иллюстрация услуги
+          {s.imageSource === "company" ? "Фото из материалов компании" : "Иллюстрация услуги"}
         </span>
       </div>
 

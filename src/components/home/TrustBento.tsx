@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import { trust } from "@/content/site";
+import { services } from "@/content/services";
 import { ArrowButton } from "@/components/ui/ArrowButton";
 import { Counter } from "@/components/ui/Counter";
 import { Icon, type IconName } from "@/components/ui/Icons";
@@ -21,8 +22,8 @@ export function TrustBento() {
           className="group card relative flex min-h-[260px] flex-col justify-between overflow-hidden bg-gradient-to-br from-graphite-2 to-graphite p-7 text-on-dark lg:min-h-[320px] lg:p-8"
         >
           <div>
-            <p className="t-stat">09</p>
-            <p className="mt-4 max-w-[16rem] text-[15px] text-on-dark/80">направлений высотных, фасадных и стекольных работ</p>
+            <p className="t-stat">{String(services.length).padStart(2, "0")}</p>
+            <p className="mt-4 max-w-[16rem] text-[15px] text-on-dark/80">направлений высотных, фасадных и монтажных работ</p>
           </div>
           <ArrowButton tone="dark" />
         </Link>

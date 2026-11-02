@@ -23,7 +23,7 @@ export function ServiceCard({ service: s, dark, className, sizes = "(min-width: 
           {serviceTypes[s.type].label}
         </span>
         <span className="absolute bottom-4 left-4 rounded-full bg-ink/75 px-3 py-1.5 text-[12px] text-on-dark">
-          Иллюстрация услуги
+          {s.imageSource === "company" ? "Фото из материалов компании" : "Иллюстрация услуги"}
         </span>
         <ArrowButton tone="glass" className="absolute bottom-4 right-4" />
       </span>

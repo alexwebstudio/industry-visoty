@@ -11,7 +11,7 @@ import { gsap, prefersReducedMotion } from "@/lib/gsap";
 import { cn } from "@/lib/utils";
 import { Wordmark } from "./Wordmark";
 
-const heroAlt = "Специалист работает с фасадным остеклением на высоте";
+const heroAlt = "Современный жилой комплекс на закате";
 
 // Art direction: 16:9 на планшете и десктопе, вертикальный 4:5 — на телефоне.
 const { props: desktopSrc } = getImageProps({
